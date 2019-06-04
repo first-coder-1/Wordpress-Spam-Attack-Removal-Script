@@ -2,7 +2,7 @@
 
 Written in Python and compatible with both **Python2** and **Python3**.
 
-This script essentially removes spam attack injections from a given path. The convertplug plugin that comes with Avada and the vulnurability which has been found by Wordfence have caused numerous sites to be hacked and their pages now redirects to various malicious and spam pages. 
+This script essentially removes spam attack injections from a given path. The convertplug plugin that comes with Avada which has a  vulnurability disclosed by Wordfence have caused numerous sites to be hacked and their pages now redirects to various malicious and spam pages.
 You can read the details from here
 
 <https://www.wordfence.com/blog/2019/05/critical-vulnerability-patched-in-popular-convert-plus-plugin/>
