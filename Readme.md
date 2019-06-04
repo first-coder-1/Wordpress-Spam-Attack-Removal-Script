@@ -15,7 +15,7 @@ __PS : This script does replaces text that is inside the "database.json" does no
 
 ### Scope
 
-There are 4 specific JS injections that have been occured after this vulnurability and the database.json contains only those records. In case you want to add further javascript/to be replaced you can use insert.py.
+There are 4 specific JS injections that has occured after this vulnurability and the database.json contains only those records. In case you want to add further javascript/to be replaced you can use insert.py.
 
 #### Example Injected Script
 
