@@ -37,6 +37,8 @@ Install the dependencies and devDependencies and start the server.
 python insert.py "string_in_double_quotes"
 ```
 
+### Example Cleanup Operation
+
 ```sh
 python cleanup.py your_domain.com
 ```
