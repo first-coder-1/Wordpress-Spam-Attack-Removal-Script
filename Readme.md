@@ -2,7 +2,7 @@
 
 Written in Python and compatible with both **Python2** and **Python3**.
 
-This script essentially removes spam attack injections from a given path. The convertplug plugin that comes with Avada which has a  vulnurability disclosed by Wordfence have caused numerous sites to be breached the breach contains access to content,code and database and this script should be only utilized to clean injected scripts from the themes and any other place where it might be. Please do seek help of a professional to handle the rest of the issues. 
+This script essentially removes spam attack injections from a given path. The convertplug plugin that comes with Avada which has a  vulnurability disclosed by Wordfence have caused numerous sites to be breached, unauthorized users have access to content,code and database. This script should be only utilized to clean injected javascript snippets from the themes and any other place where it might be. 
 
 You can read the details about vulnerability from here
 
@@ -24,11 +24,11 @@ There are 4 specific JS injections that has occured after this vulnurability and
 <script type='text/javascript' async src='https://css.developmyredflag.top/sjquery.min.js?style=prime&'></script>
 ```
 
-Various kinds of scripts exists like these and this tool/script automizes the removal process without breaking themes, plugins and sites as a whole. Instead of using backups for this using this script and scanning for shells through Wordfence can be an option.
+Various kinds of scripts exists like these and this tool/script automizes the removal process without breaking themes, plugins and sites as a whole. 
 
 ## Example Usage
 
-Script is written for Python 2.7 + and logs the altered files as well so you can use these logs to make sure they are clean for manual inspection.
+Script is written for Python 2.7+. Logs the altered files to show which files were affected.
 
 Install the dependencies and devDependencies and start the server.
 
@@ -44,7 +44,7 @@ python insert.py "string_in_double_quotes"
 python cleanup.py your_domain.com
 ```
 
-or entering a whole path like
+or entering a full path like
 
 ```sh
 python cleanup.py /home/user/your_domain.com
